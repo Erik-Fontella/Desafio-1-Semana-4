@@ -1,0 +1,29 @@
+#joy_stick {
+    z-index: -1000;
+    position: absolute;
+    justify-content: right;
+}
+
+.container-main {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 527px;
+}
+
+.title-card {
+    font-size: 50px;
+    font-family: "Poppins-ExtraBold";
+}
+
+.card>a {
+    background-color: #FA9021;
+    border-radius: 40px;
+    padding: 10px 40px;
+}

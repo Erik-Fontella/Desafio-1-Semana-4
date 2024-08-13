@@ -35,7 +35,7 @@ header {
     padding: 37px 20px 0 55px;
 }
 
-.container {
+.container-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,5 +69,11 @@ nav ul li a:hover {
 #contact {
     background-color: #FA9021;
     border-radius: 5px;
-    padding: 10px 40px;
+    padding: 12px 30px;
+    font-size: 13px;
+}
+
+/* MAIN */
+main {
+    padding: 147px;
 }
