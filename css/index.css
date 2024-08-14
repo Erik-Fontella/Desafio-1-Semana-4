@@ -1,29 +1,98 @@
 #joy_stick {
-    z-index: -1000;
+    z-index: -1;
     position: absolute;
-    justify-content: right;
+    left: 55%;
 }
 
 .container-main {
+    align-items: center;
+    padding: 0px 147px; 
+}
+
+.container-card-icons {
     display: flex;
     justify-content: baseline;
     align-items: center;
+    padding: 80px 0px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    width: 527px;
+    width: 520px;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 512px;
+    margin: 0;
+}
+
+#credits-design {
+    color: #ee8414;
+    text-shadow: 2px 0px black;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .title-card {
     font-size: 50px;
-    font-family: "Poppins-ExtraBold";
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin: 0px;
 }
 
-.card>a {
-    background-color: #FA9021;
+.button-orange {
+    font-family: Poppins, sans-serif;
+    padding: 19px 53px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: linear-gradient(to right, #F97C02, #F89E3B);
+    border: none;
     border-radius: 40px;
-    padding: 10px 40px;
+    cursor: pointer;
 }
+
+.engines-icon {
+    display: flex;
+    align-self: baseline;
+    padding: 50px;
+    justify-content: space-around;
+
+}
+
+/* TRENDING GAMES*/
+
+.container-trending-games {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0;
+}
+
+.text-trending {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Rubik",sans-serif;
+    margin-bottom: 40px;
+}
+
+#see-all{
+    background-color:rgba(255, 255, 255, 0.153);
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-family: "Rubik",sans-serif;
+    font-size: 20px;
+}
+.cards-game {
+    display: flex;
+    justify-content: space-between
+}
+
+.banner-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+}
+
