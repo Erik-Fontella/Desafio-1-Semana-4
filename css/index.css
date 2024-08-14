@@ -96,3 +96,12 @@
     font-size: 20px;
 }
 
+/* Frase Promocional */
+.frase-promocional {
+    display: flex;
+    font-size: 35px;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+}
