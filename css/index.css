@@ -105,3 +105,18 @@
     justify-content: center;
     font-weight: 600;
 }
+
+/* Banner Game*/
+
+
+.banner-game{
+    display: flex;
+    flex-flow: column;
+    margin: 20px;
+
+
+}
+.text-banner {
+    max-width: 545px;
+}
+
