@@ -5,8 +5,7 @@
 }
 
 .container-main {
-    align-items: center;
-    padding: 0px 147px;
+    padding: 0 10%;
 }
 
 .container-card-icons {
@@ -55,9 +54,12 @@
 .engines-icon {
     display: flex;
     align-self: baseline;
-    padding: 50px;
+    width: 100%;
     justify-content: space-around;
+}
 
+#unity {
+    margin-top: 30%;
 }
 
 /* TRENDING GAMES*/
@@ -76,7 +78,7 @@
     margin-bottom: 40px;
 }
 
-#see-all {
+.see-all {
     background-color: rgba(255, 255, 255, 0.153);
     padding: 20px 30px;
     border-radius: 10px;
@@ -124,6 +126,7 @@
 /* Background meio home*/
 
 #background-meio-home {
+    max-height: 880px;
     width: 100%;
     z-index: -1;
     position: absolute;
@@ -136,10 +139,8 @@
     flex-flow: column;
     justify-content: center;
     text-align: center;
-    padding: 93px;
+    padding: 93px 0;
 }
-
-
 
 .plataform-logos {
     display: flex;
@@ -158,4 +159,19 @@
     background-color: #FFFFFF;
     border-radius: 50%;
     padding: 15px;
+}
+
+/* Projetos Recentes */
+.container-projects {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.recent-projects-img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
 }
