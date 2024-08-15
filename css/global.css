@@ -77,3 +77,38 @@ nav ul li a:hover {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
+/* Inscrição com email*/
+
+.subscribe-email {
+    display: flex;
+    background-color: #1C140F;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.input-container  {
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    justify-content: space-around;
+    gap: 10px;
+    max-width: 385px;
+}
+
+.input-email {
+    flex-grow: 1;
+    border: none;
+}
+
+.input-button {
+    background-color: #DC7000;
+    border-radius: 8px;
+    font-size: 13px;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
