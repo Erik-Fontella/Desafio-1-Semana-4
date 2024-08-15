@@ -6,7 +6,7 @@
 
 .container-main {
     align-items: center;
-    padding: 0px 147px; 
+    padding: 0px 147px;
 }
 
 .container-card-icons {
@@ -72,17 +72,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: "Rubik",sans-serif;
+    font-family: "Rubik", sans-serif;
     margin-bottom: 40px;
 }
 
-#see-all{
-    background-color:rgba(255, 255, 255, 0.153);
+#see-all {
+    background-color: rgba(255, 255, 255, 0.153);
     padding: 20px 30px;
     border-radius: 10px;
-    font-family: "Rubik",sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 20px;
 }
+
 .cards-game {
     display: flex;
     justify-content: space-between
@@ -109,14 +110,52 @@
 /* Banner Game*/
 
 
-.banner-game{
+.banner-game {
     display: flex;
     flex-flow: column;
-    margin: 20px;
-
-
+    margin-top: 50px;
+    margin-bottom: 150px;
 }
+
 .text-banner {
     max-width: 545px;
 }
 
+/* Background meio home*/
+
+#background-meio-home {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+/* Plataformas */
+
+.container-plataforms {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    padding: 93px;
+}
+
+
+
+.plataform-logos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 80px;
+}
+
+.plataform-logos-row2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.icon-plataform {
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 15px;
+}
