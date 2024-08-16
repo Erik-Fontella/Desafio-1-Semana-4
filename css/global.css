@@ -23,6 +23,21 @@ a {
     text-decoration: none;
 }
 
+.title-30px-semi {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.title-30px-bold {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p-16px-regular {
+    font-size: 16px;
+    font-weight: 300;
+}
+
 /* HEADER */
 
 header {
@@ -39,7 +54,7 @@ header {
 
 #logo {
     font-family: "Poppins", sans-serif;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 29px;
 }
 
@@ -79,6 +94,7 @@ nav ul li a:hover {
 
 /* Inscrição com email*/
 
+
 .subscribe-email {
     display: flex;
     background-color: #1C140F;
@@ -86,6 +102,12 @@ nav ul li a:hover {
     justify-content: space-around;
     align-items: center;
     margin: 60px 0;
+    min-height: 189px;
+}
+
+.enter-email-title {
+    font-size: 30px;
+    font-weight: 500;
 }
 
 .input-container {
@@ -121,6 +143,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 10em;
 }
 
 .footer-row {

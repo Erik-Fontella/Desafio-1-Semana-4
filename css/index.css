@@ -18,7 +18,6 @@
 .card {
     display: flex;
     flex-direction: column;
-    width: 520px;
     align-items: flex-start;
     justify-content: space-between;
     height: 512px;
@@ -67,7 +66,7 @@
 .container-trending-games {
     display: flex;
     flex-direction: column;
-    margin: 80px 0;
+    margin: 140px 0;
 }
 
 .text-trending {
@@ -106,7 +105,7 @@
     max-width: 100%;
     text-align: center;
     justify-content: center;
-    font-weight: 600;
+    font-weight:600;
 }
 
 /* Banner Game*/
@@ -117,6 +116,7 @@
     flex-flow: column;
     margin-top: 50px;
     margin-bottom: 150px;
+    gap: 40px;
 }
 
 .text-banner {
@@ -167,7 +167,12 @@
     flex-flow: column;
     justify-content: center;
     text-align: center;
-    padding: 120px 0;
+    padding: 120px 0 80px 0;
+}
+
+.title-recent-projects p {
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .recent-projects-img {
