@@ -1,0 +1,17 @@
+body {
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    margin: 100px;
+}
+
+.text-desenvolvimento {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
