@@ -155,7 +155,8 @@
     justify-content: space-evenly;
 }
 
-.icon-plataform {
+.icon-wraper {
+    display: inline-flex;
     background-color: #FFFFFF;
     border-radius: 50%;
     padding: 15px;
