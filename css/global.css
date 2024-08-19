@@ -1,0 +1,204 @@
+/* Import font Poppinw*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Import font Rubik*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.container-main {
+    padding: 0 10%;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(#39289F, #422F9C);
+    font-family: "Poppins", sans-serif;
+}
+body,
+a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title-30px-semi {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.title-30px-bold {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p-16px-regular {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* HEADER */
+
+header {
+    color: #fff;
+    padding: 37px 20px 0 55px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 29px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 44px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    margin-left: 5px;
+    margin-right: 60px;
+}
+
+#contact {
+    background-color: #FA9021;
+    border-radius: 5px;
+    padding: 12px 30px;
+    font-size: 13px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/* Background meio*/
+
+.background {
+    max-height: 880px;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+/* Inscrição com email*/
+
+
+.subscribe-email {
+    display: flex;
+    background-color: #1C140F;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0;
+    min-height: 189px;
+}
+
+.enter-email-title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.input-container {
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    justify-content: space-around;
+    gap: 10px;
+    max-width: 385px;
+}
+
+.input-email {
+    flex-grow: 1;
+    border: none;
+}
+
+.input-button {
+    background-color: #DC7000;
+    border-radius: 8px;
+    font-size: 13px;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.container-footer {
+    background-color: #070707;
+    min-height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10em;
+}
+
+.footer-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+
+#logo-footer {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.title-footer {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 24px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-aboutUs ul li a {
+    text-decoration: none;
+}
+
+.social-links {
+    align-content: end;
+    padding: 20px;
+}
+
+.icon-social {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+.copyright p {
+    text-align: center;
+    margin: 0;
+    border-top: solid 1px #fff;
+    padding: 15px;
+    font-size: 13px;
+}

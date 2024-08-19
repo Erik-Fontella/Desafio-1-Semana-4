@@ -1,0 +1,200 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(#39289F, #422F9C);
+    font-family: "Poppins", sans-serif;
+}
+
+#joy_stick {
+    z-index: -1;
+    position: absolute;
+    left: 55%;
+}
+
+.container-card-icons {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 512px;
+    margin: 0;
+}
+
+#credits-design {
+    color: #ee8414;
+    text-shadow: 2px 0px black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title-card {
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.button-orange {
+    font-family: Poppins, sans-serif;
+    padding: 19px 53px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: linear-gradient(to right, #F97C02, #F89E3B);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.engines-icon {
+    display: flex;
+    align-self: baseline;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#unity {
+    margin-top: 30%;
+}
+
+/* TRENDING GAMES*/
+
+.container-trending-games {
+    display: flex;
+    flex-direction: column;
+    margin: 140px 0;
+}
+
+.text-trending {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 40px;
+}
+
+.see-all {
+    background-color: rgba(255, 255, 255, 0.153);
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+}
+
+.cards-game {
+    display: flex;
+    justify-content: space-between
+}
+
+.banner-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+}
+
+.banner-card img {
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.banner-card img:hover {
+    transform: scale(1.2);
+}
+
+/* Frase Promocional */
+.frase-promocional {
+    display: flex;
+    font-size: 35px;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-weight:600;
+}
+
+/* Banner Game*/
+
+
+.banner-game {
+    display: flex;
+    flex-flow: column;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    gap: 40px;
+}
+
+.text-banner {
+    max-width: 545px;
+}
+
+/* Plataformas */
+
+.container-plataforms {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    padding: 93px 0;
+}
+
+.plataform-logos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 80px;
+}
+
+.plataform-logos-row2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.icon-wraper {
+    display: inline-flex;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.platform {
+    transition: transform 0.5s, opacity 0.5s;;
+}
+
+.platform:hover {
+    transform: scale(1.2);
+}
+/* Projetos Recentes */
+.container-projects {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    padding: 120px 0 80px 0;
+}
+
+.title-recent-projects p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.recent-projects-img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.recent-projects-img img {
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.recent-projects-img img:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,140 @@
+body {
+    background: linear-gradient(#2211E7, #383837);
+}
+
+.container-mapa {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.title-map {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+.title-map h1 {
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.navegacao {
+    justify-content: center;
+    display: flex;
+    flex-flow: row;
+    font-weight: 300;
+}
+
+#contact-navegacao {
+    color: orange;
+}
+
+.div-mapa {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.info-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+#center-info {
+    border-left: solid 1px #fff;
+    border-right: solid 1px #fff;
+    padding: 0 80px;
+}
+
+/* FORMULARIO */
+
+.container-forms {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.forms {
+    display: flex;
+    flex-flow: column;
+    width: 60%;
+}
+
+.title-forms {
+    text-align: center;
+}
+
+.title-forms h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.title-forms p {
+    font-size: 13px;
+}
+
+.container-input {
+    margin: 60px 0;
+}
+
+.name-row {
+    display: flex;
+    gap: 20px;
+}
+
+.name-row div {
+    width: 50%;
+}
+
+.name-fields input[type="text"] {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1em;
+    color: #b3b3b3;
+    /* Cor do texto das labels */
+}
+
+.name-imput,
+.email-input,
+#message {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid 0.5px #CECECE;
+    border-radius: 9px;
+    background-color: #2C2520;
+    color: #ffffff;
+}
+
+#message {
+    height: 230px;
+    resize: none;
+}
+
+.button-form {
+    display: flex;
+    justify-content: end;
+}
+
+button {
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e65c00;
+}
