@@ -7,13 +7,15 @@
     box-sizing: border-box;
 }
 
+.container-main {
+    padding: 0 10%;
+}
 body {
     padding: 0px;
     margin: 0px;
     background: linear-gradient(#39289F, #422F9C);
     font-family: "Poppins", sans-serif;
 }
-
 body,
 a {
     color: #fff;
@@ -90,6 +92,15 @@ nav ul li a:hover {
     padding: 12px 30px;
     font-size: 13px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/* Background meio*/
+
+.background {
+    max-height: 880px;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
 }
 
 /* Inscrição com email*/
@@ -169,7 +180,7 @@ ul {
     padding: 0;
 }
 
-.footer-aboutUs ul li a  {
+.footer-aboutUs ul li a {
     text-decoration: none;
 }
 
@@ -181,7 +192,7 @@ ul {
 .icon-social {
     background-color: #fff;
     border-radius: 50%;
-    padding: 5px 10px ;
+    padding: 5px 10px;
 }
 
 .copyright p {
