@@ -101,6 +101,14 @@ body {
     font-size: 20px;
 }
 
+.banner-card img {
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.banner-card img:hover {
+    transform: scale(1.2);
+}
+
 /* Frase Promocional */
 .frase-promocional {
     display: flex;
@@ -156,6 +164,13 @@ body {
     padding: 15px;
 }
 
+.platform {
+    transition: transform 0.5s, opacity 0.5s;;
+}
+
+.platform:hover {
+    transform: scale(1.2);
+}
 /* Projetos Recentes */
 .container-projects {
     display: flex;
@@ -174,4 +189,12 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+}
+
+.recent-projects-img img {
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.recent-projects-img img:hover {
+    transform: scale(1.2);
 }
