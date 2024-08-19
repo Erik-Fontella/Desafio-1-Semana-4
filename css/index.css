@@ -1,11 +1,14 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(#39289F, #422F9C);
+    font-family: "Poppins", sans-serif;
+}
+
 #joy_stick {
     z-index: -1;
     position: absolute;
     left: 55%;
-}
-
-.container-main {
-    padding: 0 10%;
 }
 
 .container-card-icons {
@@ -121,15 +124,6 @@
 
 .text-banner {
     max-width: 545px;
-}
-
-/* Background meio home*/
-
-#background-meio-home {
-    max-height: 880px;
-    width: 100%;
-    z-index: -1;
-    position: absolute;
 }
 
 /* Plataformas */
